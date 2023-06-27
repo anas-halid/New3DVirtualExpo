@@ -1,7 +1,13 @@
 import React, { useState } from 'react';
 import axios from "axios" ; 
 
+import { useNavigate } from 'react-router'
 export default function Login() {
+
+
+
+  
+   
   //storing in a variable 
   const [email , setEmail ] = useState("") ; 
   const [password , setPassword ] = useState("") ; 
@@ -14,7 +20,8 @@ export default function Login() {
      alert("u have successfully logged in !!")
     } catch (err) 
     {
-      alert("login failed try again ") ; 
+      alert("login failed try again ") ;
+       
     }
     
 

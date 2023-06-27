@@ -3,6 +3,28 @@
 @tailwind utilities;
 
 
+
+/* This is the 360 viweer */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+
+
+}
+
+
+#panel {
+  width: 320px;
+  height: 240px;
+  background-color: #fff;
+}
+
+
+/* Up till here */
+
+
 .divTable
 {
     display: table;

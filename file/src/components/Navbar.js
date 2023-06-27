@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
+import contacts from "./Contacts"
 
-function Navbar() {
+
+
+function Navbar() 
+{
+  
   return (
    
          <nav className="bg-gray-800 flex ">
@@ -12,10 +17,10 @@ function Navbar() {
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
                 <a href="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                <Link to='/login' className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"'>Log In </Link>
-                <Link to='/register' className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"'>Register</Link>
-                <Link to='/Aboutus' className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"'>About Us</Link>
-                <Link to='/Contacts' className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"'>Contact</Link>
+                <Link to='/login' onClick={window.location.reload}  className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"' >Log In </Link>
+                <Link to='/register' onClick={window.location.reload} className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"'>Register</Link>
+                <Link to='/Aboutus' onClick={window.location.reload} className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"'>About Us</Link>
+                <Link to='/Contacts' onClick={window.location.reload} className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"'>Contact</Link>
               </div>
             </div>
           </div>
@@ -24,6 +29,11 @@ function Navbar() {
     </nav>
   
   )
+
+ 
+  
+      
+
 }
 
 export default Navbar ; 

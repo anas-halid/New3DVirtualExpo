@@ -6,9 +6,11 @@ import bg from './booth3.png' ;
 export default function Shop() {
   return (
     <div style={{backgroundColor: '#4E6E83'}}>  
-       
-          <h1>Welcome to our Virtual Product Exhibition Booth!</h1>
-    <h3 id="centeralign">Here you can learn about our latest products and services.</h3>
+
+    <div class="fade-in-text">
+      <br></br>
+    <h1>Welcome to [###] Exhibition Booth!</h1>
+    </div>  
     <ul>
       <li id ="menu" style={{ position: 'relative', left: 90, top: 515 }} ><a href="">View Product Video</a></li>
       <li id ="menuright"style={{ position: 'relative', left: -85, top: 440}}><Link to='/items'>view products</Link></li>
@@ -17,6 +19,7 @@ export default function Shop() {
       <img id ="bground" src={bg} />
 
     </ul>
+    <h3 id="centeralign">Here you can learn about our latest products and services.</h3>
     </div>
   )
 }

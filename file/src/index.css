@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 
+/* 3d title */
+
+
+/*till here */
 
 /* This is the 360 viweer */
 
@@ -33,9 +37,49 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/* button & button center */
+
+#container{  
+  text-align: center;  
+  width: 300px;  
+  height: 200px;  
+  padding-top: 100px;  
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  }  
+
+  
 
 
+button{
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  outline: 0;
+  cursor: pointer;
+  border: none;
+  padding: 0 56px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 7px;
+  font-weight: 900;
+  font-size: 16px;
+  background: #fff;
+  color: #4E6E83;
+  box-shadow: 0 4px 14px 0 rgb(0 0 0 / 10%);
+  transition: background 0.2s ease,color 0.2s ease,box-shadow 0.2s ease;
+  :hover{
+      background: rgba(255,255,255,0.9);
+      box-shadow: 0 6px 20px rgb(93 93 93 / 23%);
+  }
+  
+  }
 
+/* Up till here */
 
 .divTable
 {
@@ -154,6 +198,29 @@ ul.menu {
   -moz-animation: fadeIn 5s;
   -o-animation: fadeIn 5s;
   -ms-animation: fadeIn 5s;
+  position: static;
+  display: block;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-size: 4em;
+  font-weight: 700;
+  text-shadow: 1px 1px 1px #919191,
+      1px 2px 1px #919191,
+      1px 3px 1px #919191,
+      1px 4px 1px #919191,
+      1px 5px 1px #919191,
+      1px 6px 1px #919191,
+      1px 7px 1px #919191,
+      1px 8px 1px #919191,
+      1px 9px 1px #919191,
+      1px 10px 1px #919191,
+  1px 18px 6px rgba(16,16,16,0.4),
+  1px 22px 10px rgba(16,16,16,0.2),
+  1px 25px 35px rgba(16,16,16,0.2),
+  1px 30px 60px rgba(16,16,16,0.4);
+
 }
 
 @keyframes fadeIn {

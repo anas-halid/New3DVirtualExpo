@@ -18,7 +18,7 @@ function App() {
     <Route index element={<Layout/>} />   {/* this will be the default layout when user visits our link */ }
     <Route path='/login' element={<Login/>} />
     <Route path='/register' element={<Register />} /> 
-    <Route path='/products' element={<Shop />} />
+    <Route path='/booth' element={<Shop />} />
     <Route path='/Aboutus' element={<Aboutus />} />
     <Route path='/Contacts' element={<Contacts />} />
     <Route path='/items' element={<Products/>}/>

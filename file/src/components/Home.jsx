@@ -23,7 +23,7 @@ const Home = () => {
     infospot2 = new PANOLENS.Infospot( 300, PANOLENS.DataImage.Info );
     infospot2.position.set( -5000.00, -1825.25, 197.56 );
     infospot2.addEventListener('click', function () {
-      window.location.replace("Products") // contacts is temporary, it should be booth 1, I used this for showcasing and error fixing
+      window.location.replace("booth") // contacts is temporary, it should be booth 1, I used this for showcasing and error fixing
     });
 
     infospot3 = new PANOLENS.Infospot( 300, PANOLENS.DataImage.Info );

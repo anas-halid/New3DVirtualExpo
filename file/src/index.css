@@ -81,6 +81,7 @@ button{
 
 /* Up till here */
 
+/*Contact page*/
 h2{
   text-align: center;
   font-size: 175%;
@@ -124,6 +125,56 @@ h2{
     padding: 10px;
     background-color: #f3ddff;
 }
+/* about us */
+.header {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 25%;
+  text-align: center;
+  font-size: 100px;
+  color: white;
+	text-shadow: -1px 1px 0 #000,
+				  1px 1px 0 #000,
+				 1px -1px 0 #000,
+				-1px -1px 0 #000;
+}
+
+.wave {
+  position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.wave svg {
+  position: relative;
+  display: block;
+  width: calc(200% + 1.3px);
+  height: 171px;
+}
+
+.wave .shape-fill {
+  fill: #668A9C;
+}
+
+
+.divCells
+{
+    text-align: center;
+    width:100%;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: outset 1px;
+    padding: 10px;
+    background-color: #f3ddff;
+    font-weight:500;
+    
+}
+/* about os */
+
+
+
 
 body {
   margin: 0;

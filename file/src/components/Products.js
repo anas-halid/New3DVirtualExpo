@@ -33,9 +33,51 @@ function Products() {
       const [data, setData] = useState([])
     
       useEffect(() => {
+        if (window.location.href.indexOf('Xiaomi') > -1){
         fetch('/Xiaomi/items')
           .then((response) => response.json())
-          .then((data) => setData(data))
+          .then((data) => setData(data))}
+      }, [])
+
+
+      useEffect(() => {
+        if (window.location.href.indexOf('Huawei') > -1){
+        fetch('/Huawei/items')
+          .then((response) => response.json())
+          .then((data) => setData(data))}
+      }, [])
+
+      
+      useEffect(() => {
+        if (window.location.href.indexOf('Oppo') > -1){
+        fetch('/Oppo/items')
+          .then((response) => response.json())
+          .then((data) => setData(data))}
+      }, [])
+    
+
+      
+      useEffect(() => {
+        if (window.location.href.indexOf('Acer') > -1){
+        fetch('/Acer/items')
+          .then((response) => response.json())
+          .then((data) => setData(data))}
+      }, [])
+    
+
+      useEffect(() => {
+        if (window.location.href.indexOf('Asus') > -1){
+        fetch('/Asus/items')
+          .then((response) => response.json())
+          .then((data) => setData(data))}
+      }, [])
+    
+
+      useEffect(() => {
+        if (window.location.href.indexOf('Nvidia') > -1){
+        fetch('/Nvidia/items')
+          .then((response) => response.json())
+          .then((data) => setData(data))}
       }, [])
     
       return (

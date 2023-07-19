@@ -17,13 +17,67 @@ mongodb.connect(
 
 app.use(express.json())
 
-
+app.get('/Huawei/items', function (req, res) {
+  // getting all the data
+  db.collection('compadmin')
+    .find({
+        CompanyName: 'Huawei'
+      })
+    .toArray(function (err, items) {
+      res.send(items)
+    })
+})
 
 app.get('/Xiaomi/items', function (req, res) {
   // getting all the data
   db.collection('compadmin')
     .find({
         CompanyName: 'Xiaomi'
+      })
+    .toArray(function (err, items) {
+      res.send(items)
+    })
+})
+
+
+app.get('/Oppo/items', function (req, res) {
+  // getting all the data
+  db.collection('compadmin')
+    .find({
+        CompanyName: 'Oppo'
+      })
+    .toArray(function (err, items) {
+      res.send(items)
+    })
+})
+
+app.get('/Asus/items', function (req, res) {
+  // getting all the data
+  db.collection('compadmin')
+    .find({
+        CompanyName: 'Asus'
+      })
+    .toArray(function (err, items) {
+      res.send(items)
+    })
+})
+
+app.get('/Acer/items', function (req, res) {
+  // getting all the data
+  db.collection('compadmin')
+    .find({
+        CompanyName: 'Acer'
+      })
+    .toArray(function (err, items) {
+      res.send(items)
+    })
+})
+
+app.get('/Nvidia/items', function (req, res) {
+  // getting all the data
+  db.collection('compadmin')
+    .find({
+        CompanyName: 'Nvidia'
       })
     .toArray(function (err, items) {
       res.send(items)

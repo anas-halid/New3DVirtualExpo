@@ -32,6 +32,11 @@ function App() {
     <Route path='/Aboutus' element={<Aboutus />} />
     <Route path='/Contacts' element={<Contacts />} />
     <Route path='/Xiaomi/items' element={<Products/>}/>
+    <Route path='/Huawei/items' element={<Products/>}/>
+    <Route path='/Oppo/items' element={<Products/>}/>
+    <Route path='/Acer/items' element={<Products/>}/>
+    <Route path='/Asus/items' element={<Products/>}/>
+    <Route path='/Nvidia/items' element={<Products/>}/>
     <Route path='*' element={<NotFound />} />
   </Route>
 </Routes>

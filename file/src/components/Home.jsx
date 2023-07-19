@@ -16,38 +16,44 @@ const Home = () => {
     
     // each infospot is a booth - Anas
     infospot = new PANOLENS.Infospot();
-    infospot.position.set( 4500.00, -665.23, -3996.49 );
+    infospot.position.set( 7500.00, -2665.23, -3996.49 );
+    infospot.addHoverText( 'Huawei' );
     infospot.addEventListener('click', function () {
       window.location.replace("Huawei") // contacts is temporary, it should be booth 1, I used this for showcasing and error fixing
     });
     
     
     infospot2 = new PANOLENS.Infospot( 300, PANOLENS.DataImage.Info );
-    infospot2.position.set( 5000.00, -500.25, 197.56 );
+    infospot2.position.set( 4000.00, -500.25, -597.56 );
+    infospot2.addHoverText( 'Xiaomi' );
     infospot2.addEventListener('click', function () {
       window.location.replace("Xiaomi") // contacts is temporary, it should be booth 1, I used this for showcasing and error fixing
     });
 
     infospot3 = new PANOLENS.Infospot( 300, PANOLENS.DataImage.Info );
     infospot3.position.set( -2500.00, -205.25, 300.56 );
+    infospot3.addHoverText( 'Asus' );
     infospot3.addEventListener('click', function () {
       window.location.replace("Asus") // contacts is temporary, it should be booth 2, I used this for showcasing and error fixing
     });
 
     infospot4 = new PANOLENS.Infospot( 300, PANOLENS.DataImage.Info );
-    infospot4.position.set( -5300.00, 535.25, -3000.56 );
+    infospot4.position.set( 3300.00, 535.25, 9000.56 );
+    infospot4.addHoverText( 'Oppo' );
     infospot4.addEventListener('click', function () {
       window.location.replace("Oppo") // contacts is temporary, it should be booth 4, I used this for showcasing and error fixing
     });
 
     infospot5 = new PANOLENS.Infospot( 300, PANOLENS.DataImage.Info );
-    infospot5.position.set( -4500.00, 235.25, -3000.56 );
+    infospot5.position.set( 4500.00, 235.25, -9000.56 );
+    infospot5.addHoverText( 'Nvidia' );
     infospot5.addEventListener('click', function () {
       window.location.replace("Nvidia") // contacts is temporary, it should be booth 5, I used this for showcasing and error fixing
     });
 
     infospot6 = new PANOLENS.Infospot( 300, PANOLENS.DataImage.Info );
-    infospot6.position.set( -9300.00, 535.25, -3000.56 );
+    infospot6.position.set( 9300.00, -535.25, 100.56 );
+    infospot6.addHoverText( 'Acer' );
     infospot6.addEventListener('click', function () {
       window.location.replace("Acer") // contacts is temporary, it should be booth 6, I used this for showcasing and error fixing
     });

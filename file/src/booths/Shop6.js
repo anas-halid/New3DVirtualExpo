@@ -39,7 +39,7 @@ export default function Shop() {
     <ul>
     <li id ="menu" style={{ position: 'relative', left: 90, top: 515 }} ><Link to='Livedemo'>View Product Video</Link></li>
       <li id ="menuright"style={{ position: 'relative', left: -85, top: 440}}><Link to='items'>view products</Link></li>
-      <li id ="menu" style={{ position: 'relative', left: 90, top: 515 }}><a href="">"Live Demo"</a></li>
+      <li id ="menu" style={{ position: 'relative', left: 90, top: 515 }}><Link to='/Proddemo'>Live Demo</Link></li>
       <li id ="menuright" style={{ position: 'relative', left: -85, top: 440}}><Link to='/Livechat'>Live Chat</Link></li>
       <div id="section-1">
       <img id ="bground" src={bg} />

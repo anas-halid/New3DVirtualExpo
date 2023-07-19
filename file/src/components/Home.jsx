@@ -16,14 +16,14 @@ const Home = () => {
     
     // each infospot is a booth - Anas
     infospot = new PANOLENS.Infospot();
-    infospot.position.set( 5000.00, -665.23, -3996.49 );
+    infospot.position.set( 4500.00, -665.23, -3996.49 );
     infospot.addEventListener('click', function () {
       window.location.replace("Huawei") // contacts is temporary, it should be booth 1, I used this for showcasing and error fixing
     });
     
     
     infospot2 = new PANOLENS.Infospot( 300, PANOLENS.DataImage.Info );
-    infospot2.position.set( -5000.00, -1825.25, 197.56 );
+    infospot2.position.set( 5000.00, -500.25, 197.56 );
     infospot2.addEventListener('click', function () {
       window.location.replace("Xiaomi") // contacts is temporary, it should be booth 1, I used this for showcasing and error fixing
     });

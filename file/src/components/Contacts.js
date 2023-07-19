@@ -19,12 +19,12 @@ export default function Contacts() {
                   <div class="divRow">
                   <div class="divCell">CEO</div>
                       <div class="divCell">Halideen Anas</div>
-                      <div class="divCell">9999-9991</div>
+                      <div class="divCell">anashalideen@gmail.com</div>
                   </div>
                   <div class="divRow">
                   <div class="divCell">Backend Developer</div>
                       <div class="divCell">Reisya Dharmawangsa Bagus</div>
-                      <div class="divCell">reisyabagus13122003</div>
+                      <div class="divCell">reisyabagus13122003@gmail.com</div>
                       
                   </div>
                   <div class="divRow">

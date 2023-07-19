@@ -85,20 +85,30 @@ function Products() {
           <ul>
             {data.map((item) => (
               <li key={item._id}>
-               <h2><br />{item.CompanyName}</h2><br /> {/* <-- company brand Title */}
-             
+               <h2 class="title"  ><br />{item.CompanyName}</h2><br /> {/* <-- company brand Title */}
+               <div class ="small-container">
                 <ul>
                   {item.Products.map((product) => (
+                    
+                      <div class="row">
+                        <div class ="col-4">
+                          
                     <li key={product.Product}>
-                      <img src={product.Imagelink}></img>
-                     <h3> Product:<br /> {product.Product}</h3> <br />
-                     <h3>  Price:<br /> {product.Price}</h3><br />
-                     <h3>  Inv:<br /> {product.Inventory}</h3><br />
-                     <h3>  Details: <br />{product.Desc}</h3><br /><br />
+                      <img src={product.Imagelink}  class="center"></img>
+                     <h4> <b> {product.Product}</b></h4> <br />
+                     <h3>  <p>Price: {product.Price} &nbsp;&nbsp;&nbsp;    In-Stock: {product.Inventory} </p></h3> <br />
+                     
+                     <h3> <b>Product Details:</b> <br /><p>{product.Desc}</p></h3>  <br /><br />
+                     <a href="" class="button"> Buy Now </a>
                      <hr></hr><br />
                     </li>
+                          
+                        </div>
+                      </div>
+                    
                   ))}
                 </ul>
+                </div>
               </li>
             ))}
           </ul>

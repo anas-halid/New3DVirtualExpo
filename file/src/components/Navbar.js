@@ -18,7 +18,6 @@ function Navbar()
               <div className="ml-10 flex items-baseline space-x-4">
                 <a href="/" className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
                 <Link to='/login' onClick={window.location.reload}  className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"' >Log In </Link>
-                <Link to='/register' onClick={window.location.reload} className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"'>Register</Link>
                 <Link to='/Aboutus' onClick={window.location.reload} className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"'>About Us</Link>
                 <Link to='/Contacts' onClick={window.location.reload} className='text-gray-300 hover:text-white px-3 py-2 rounded-md text-sm font-medium"'>Contact</Link>
               </div>

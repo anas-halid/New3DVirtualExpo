@@ -82,18 +82,20 @@ function Products() {
     
       return (
         <div>
-          <h1>Company Data</h1>
           <ul>
             {data.map((item) => (
               <li key={item._id}>
-                Company Name: {item.CompanyName} <br />
-                Company Address: {item.Login} <br />
-                Company Phone: {item.Password}
+               <h2><br />{item.CompanyName}</h2><br /> {/* <-- company brand Title */}
+             
                 <ul>
                   {item.Products.map((product) => (
                     <li key={product.Product}>
-                      Product: {product.Product} <br />
-                      Price: {product.Price}
+                      <img src={product.Imagelink}></img>
+                     <h3> Product:<br /> {product.Product}</h3> <br />
+                     <h3>  Price:<br /> {product.Price}</h3><br />
+                     <h3>  Inv:<br /> {product.Inventory}</h3><br />
+                     <h3>  Details: <br />{product.Desc}</h3><br /><br />
+                     <hr></hr><br />
                     </li>
                   ))}
                 </ul>

@@ -20,6 +20,18 @@ mongodb.connect(
 app.use(express.json())
 
 
+
+
+app.get('/', function (req, res) {
+  // getting all the data
+  db.collection('compadmin')
+    .find({ })
+    .toArray(function (err, items) {
+      res.send(items)
+    })
+})
+
+
 app.get('/Huawei/items', function (req, res) {
   // getting all the data
   db.collection('compadmin')

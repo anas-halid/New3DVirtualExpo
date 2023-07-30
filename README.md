@@ -1,7 +1,10 @@
 # New3DVirtualExpo
 Actual 3D Virtual Product Expo concept using the MERN stack with Palolens.js
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-<i class="devicon-mongodb-plain-wordmark colored"></i>
+<br>
+[![My Skills](https://skillicons.dev/icons?i=mongodb)](https://en.wikipedia.org/wiki/MongoDB)
+[![My Skills](https://skillicons.dev/icons?i=express)](https://en.wikipedia.org/wiki/Express.js)
+[![My Skills](https://skillicons.dev/icons?i=react)](https://en.wikipedia.org/wiki/React_(software))
+[![My Skills](https://skillicons.dev/icons?i=nodejs)](https://en.wikipedia.org/wiki/Node.js)
 Deployed Full Mern Project : https://fyp-uowchk-7914106.netlify.app/
 <br>
 Deployed Backend only : https://virtual-expo-backend.onrender.com/

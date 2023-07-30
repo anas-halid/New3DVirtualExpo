@@ -8,13 +8,20 @@ Deployed Backend only : https://virtual-expo-backend.onrender.com/
 Deploy Locally :
 <br>
 <b>Backend:</b>
+<br>
 Step 1: Open terminal
+<br>
 Step 2: Direct your file to "file" [cd file]
+<br>
 Step 3: Direct your file to "server" [cd server]
+<br>
 Step 4: Start Server [node index]
 <br>
 <b>Frontend:</b>
+<br>
 Step 1: Open new terminal
+<br>
 Step 2: Direct your file to "file" [cd file]
+<br>
 Step 3: Start React Frontend [npm start]
 <br>

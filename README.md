@@ -1,5 +1,5 @@
 # New3DVirtualExpo
-New Actual 3D Virtual Product Expo
+Actual 3D Virtual Product Expo concept using the MERN stack with Palolens.js
 
 Deployed Full Mern Project : https://fyp-uowchk-7914106.netlify.app/
 <br>

@@ -1,6 +1,7 @@
 import {Component, useEffect, useState} from 'react';
 import axios from 'axios'
 
+
 /*
 mongodb.connect(
     connectionString,
@@ -31,10 +32,10 @@ function Products() {
 
    
       const [data, setData] = useState([])
-    
+  
       useEffect(() => {
         if (window.location.href.indexOf('Xiaomi') > -1){
-        fetch('/Xiaomi/items')
+        fetch('/xiaomi/items')
           .then((response) => response.json())
           .then((data) => setData(data))}
       }, [])

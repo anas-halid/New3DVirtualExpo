@@ -1,6 +1,5 @@
 const express = require('express')
 const mongodb = require('mongodb')
-const cors = require('cors')
 
 const app = express()
 let db
@@ -17,7 +16,7 @@ mongodb.connect(
 )
 
 
-app.use(cors())
+
 app.use(express.json())
 
 

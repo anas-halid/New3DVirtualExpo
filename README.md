@@ -1,5 +1,5 @@
 # New3DVirtualExpo
-Actual 3D Virtual Product Expo concept using the MERN stack with Palolens.js
+Actual 3D Virtual Product Expo concept using the MERN stack with Palolens.js and cors
 <br>
 <br>
 [![My Skills](https://skillicons.dev/icons?i=mongodb)](https://en.wikipedia.org/wiki/MongoDB)

@@ -5,7 +5,9 @@ Deployed Full Mern Project : https://fyp-uowchk-7914106.netlify.app/
 <br>
 Deployed Backend only : https://virtual-expo-backend.onrender.com/
 <br>
+<br>
 Deploy Locally :
+<br>
 <br>
 <b>Backend:</b>
 <br>
@@ -16,6 +18,7 @@ Step 2: Direct your file to "file" [cd file]
 Step 3: Direct your file to "server" [cd server]
 <br>
 Step 4: Start Server [node index]
+<br>
 <br>
 <b>Frontend:</b>
 <br>

@@ -1,6 +1,6 @@
 # New3DVirtualExpo
 Actual 3D Virtual Product Expo concept using the MERN stack with Palolens.js
-
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 Deployed Full Mern Project : https://fyp-uowchk-7914106.netlify.app/
 <br>
 Deployed Backend only : https://virtual-expo-backend.onrender.com/

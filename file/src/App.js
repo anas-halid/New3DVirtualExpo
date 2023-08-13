@@ -15,7 +15,7 @@ import Shop4 from "./booths/Shop4";
 import Shop5 from "./booths/Shop5";
 import Shop6 from "./booths/Shop6";
 import Products from './components/Products';
-
+import Loghome from './components/Loghome';
 function App() {
   
 
@@ -24,6 +24,13 @@ function App() {
   <Route path='/' element={<SharedLayout/>}>   {/* This component is shared through out the app i.e navbar  */}
     <Route index element={<Layout/>} />   {/* this will be the default layout when user visits our link */ }
     <Route path='/login' element={<Login/>} />
+    <Route path='/loghome' element={<Loghome/>} />
+    <Route path='/login/Nvidia' element={<Login/>} />
+    <Route path='/login/Huawei' element={<Login/>} />
+    <Route path='/login/Xiaomi' element={<Login/>} />
+    <Route path='/login/Oppo' element={<Login/>} />
+    <Route path='/login/Acer' element={<Login/>} />
+    <Route path='/login/Asus' element={<Login/>} />
     <Route path='/Livechat' element={<Livechat/>} />
     <Route path='/Proddemo' element={<Proddemo/>} />
     <Route path='/Xiaomi' element={<Shop />} />
